@@ -1,22 +1,55 @@
-.App {
-  text-align: center;
+body {
+   background-color: black;
+   display: flex;
+   justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.container {
+   display: block;
+   width: 500px;
+   margin-top: 120px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title {
+   text-align: center;
+   color: white;
+}
+.new-task {
+   display: block;
+   width: 100%;
+   background-color: azure;
+   border-radius: 10px;
+   height: 40px;
+   border-color: blue;
+   border-width: 4px;
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 8px;
+}
+.test-label {
+   text-align: center;
+   color: white;
+}
+.task-container {
+  width: 100%;
+  background-color: azure;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  border-left: 8px solid blue !important;
+}
+.task {
+  margin: 0;
+  padding: 10px 0px 10px 10px;
+}
+.delete-button {
+  background-color: red;
+  border-radius: 13px;
+  height: 23px;
   color: white;
+  border-width: 0px;
+  font-weight: bolder;
 }
-
-.App-link {
-  color: #09d3ac;
+.button-container {
+  position: relative;
+  float: right;
+  margin: -32px 10px;
 }
